@@ -1,0 +1,57 @@
+body {
+    background-color: #353a3b;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    margin-top: 200px;
+}
+
+
+section.clock {
+
+    display: flex;
+    justify-content: center;
+    /* align-items: flex-end; */
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    height: 200px;
+    padding: 0 20px;
+    margin: auto;
+    /* Neumorphism effect */
+    border-radius: 43px;
+
+    border-radius: 34px;
+    background: linear-gradient(225deg, #393e3f, #303435);
+    box-shadow: -8px 8px 26px #1b1d1e,
+        8px -8px 26px #505759;
+}
+
+.clock div {
+    width: 85px;
+    height: 85px;
+    padding: 10px;
+    border-radius: 34px;
+    /* background: linear-gradient(225deg, #f3ffff, #ccd8da);
+    box-shadow: -7px 7px 26px #bcc7c9,
+        7px -7px 26px #ffffff; */
+}
+
+.clock div p {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 30px;
+    border-left: 1px grey solid;
+}
+
+p#hours {
+    border-left: 0;
+}
+
+
+/* 
+border-radius: 48px;
+background: linear-gradient(225deg, #b4c5c9, #d6eaef);
+box-shadow:  -23px 23px 46px #a2b1b5,
+             23px -23px 46px #eeffff;
+              */
